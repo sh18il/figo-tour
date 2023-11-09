@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>FIGO TOUR PLANEERS</title>
+    <link rel="icon" href="images lok.jpeg" type="image/x-icon">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fi-go condact</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/finel.css">
+</head>
+<body class="lik-f">
+
+
+       
+   
+   
+    
+    <form id="submit-form" class="frm1" action="https://script.google.com/macros/s/AKfycbzIQi0ypfV4xu97ETkaO2VrQ0Osgna4M4jY0camMuDSPfKfqBVC2i5umwF4SPgdFXVG7Q/exec">
+        <h4>enter your name</h4>
+        <input type="text" name="fname">
+        <h4>condact number </h4>
+        <input type="tel"name=fnumber>
+        <h4>enter your email </h4>
+        <input type="email"name=fmail>
+        <input class="submi" type="submit" value="Submit">
+        <h1>happy journry</h1>
+        <h6 class="s-f">coustemer care:7034101419 </h6>
+    </form>
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbzIQi0ypfV4xu97ETkaO2VrQ0Osgna4M4jY0camMuDSPfKfqBVC2i5umwF4SPgdFXVG7Q/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+   
+    
+    
+</body>
+</html>

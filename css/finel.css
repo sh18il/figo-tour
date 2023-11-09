@@ -1,0 +1,67 @@
+.main-bo{
+    background:url(https://media.istockphoto.com/id/1465713017/photo/lake-benson-park-trail-foliage.webp?b=1&s=170667a&w=0&k=20&c=FGEHfypm9uk0R6M6_2kJEEOhvBc8kT2m_JWYWq2VJv8=); 
+    
+    
+  font-size: 16px;
+  color: #222;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+}
+.dive{
+    
+    height: 100%;
+    width: 100%;
+    background: url(https://wallpapers.com/images/featured/ibk7fgrvtvhs7qzg.jpg) no-repeat center center fixed;
+    padding-bottom: 50%;
+    
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
+
+}
+.fisty{
+    margin-top: 5px;
+    font-size: 2cm;
+    text-align: center;
+}
+.COND-FI{
+    color: rgb(22, 22, 22);
+    size: 2cm;
+}.place-fi{
+    max-width: 100%;
+    padding: 10%;
+    padding-left: 5%;
+    padding-right: 10%;
+    
+    background: url(https://media.istockphoto.com/id/1390297176/photo/the-city.webp?b=1&s=170667a&w=0&k=20&c=rQ2tcUpX9XHaKprQH4Gs_jWG7CrUtwYbRT6InFN3s6s=);
+}.fimg{
+    padding-left: 50%;
+}
+.fi-hed{
+    color: red;
+}.lik-f{
+    
+    background: url(https://picstatio.com/download/1600x1200/vxlhyl/sun-sunset-beach-bench.jpg);
+   width: 100%;
+   background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+
+}.s-f{
+    text-align: center;
+    size-adjust: 2cm;
+    
+}.submi{
+     color: #ffffff9b;
+     text-align: center;
+     text-shadow: #e0e0e09b;
+     background-color: rgba(107, 57, 42, 0.494);
+}.frm1{padding-top: 0%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-style:oblique;
+}.tex-fed{
+    padding-left: 30px;
+    box-shadow: #222;
+    background-color:transparent;
+    border-radius: 40px;
+    border-color: teal;
+    
+} 
